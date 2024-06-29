@@ -5,107 +5,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <title>My Resume</title>
 </head>
 <body>
-    <header>
-        <table>
-            <tr>
-                <td>
-                    <img src="/photo.jpg" height="70" ="My Photo"/>
-                </td>
-                <td>
-                    <center>
-                        <h1>Ansh Soni</h1>
-                    </center>
-                </td>
-            </tr>
-        </table>  
-    </header>
     
-    <hr>
+    <div id="leftsection">
+        <header>
+            <center>
+                <img src="/photo.jpg" height="70" ="My Photo"/>
+            <h1>Ansh Soni</h1>       
+            </center> 
+        </header>
+        
+        <section>
+            <h2 id="lefth2">
+                Contact
+            </h2>
     
-    <section>
-        <h2>
-            Contact
-        </h2>
-
-        <p>
-            <ul>
-                <li>Work Place :: Raysan, Gandhinagar, Gujarat</li>
-                <li>Email :: anshsoni7505@gmail.com</li>
-                <li>Linkedin :: @ansh soni</li>
-            </ul>
-        </p>
-
-    </section>
+            <p>
+                <ul>
+                    <li id="leftpara">Work Place :: Raysan, Gandhinagar, Gujarat</li>
+                    <li id="leftpara">Email :: anshsoni7505@gmail.com</li>
+                    <li id="leftpara">Linkedin :: @ansh soni</li>
+                </ul>
+            </p>
     
-    <hr>
+        </section>
+    
+        <section>
+            <h2 id="lefth2">
+                Skills
+            </h2>
+    
+            <p>
+                <ul>
+                    <li id="leftpara">Python Programming Language</li>
+                    <li id="leftpara">C Programming Language</li>
+                    <li id="leftpara">HTML5</li>
+                    <li id="leftpara">Microsoft Power BI</li>
+                    <li id="leftpara">Git/GitHub</li>
+                </ul>
+            </p>
+        </section>
 
+        <section>
+            <h2 id="lefth2">
+                For More Information
+            </h2>
+    
+            <p>
+                <ul>
+                    <li id="leftpara">Linkedin Profile - <a href="https://www.linkedin.com/in/anshmnsoni" target="_blank">🔗</a></li>
+                    <li id="leftpara">GitHub Account - <a href="https://github.com/AnshMNSoni" target="_blank">🔗</a></li>
+                </ul>
+            </p>
+        </section>
+        
+    </div>
+    <!-- <hr> -->
+
+   <div id="rightsection">
     <section>
 
         <article>
-            <h2>
+            <h2 id="about">
                 About
             </h2>
-            <p>
+            <p id="aboutpara">
                 I am a dynamic Computer Engineering student at Pandit Deendayal Energy University (PDEU), with a strong foundation in both mathematics and computing. I am passionate about Python programming and have a keen interest in cutting-edge fields such as Industry 4.0 and Quantum Computing. I am dedicated to leveraging my skills for the welfare of the Society.
             </p>
         </article>
         
-        <hr>
+        <!-- <hr> -->
 
         <article>
-            <h2>
+            <h2 id="righth2">
                 Education Histroy
             </h2>
 
             <p>
                 <ul>
-                    <li>
-                        <h3>B.Tech in Computer Engineering</h3>
+                    <li id="list">
+                        B.Tech in Computer Engineering
                         <ul>
-                            <li>Achieved <b>9.76 CGPA</b> - 1<sup>st</sup> year</li>
+                            <li id="sublist">Achieved <b>9.76 CGPA</b> - 1<sup>st</sup> year</li>
                         </ul>
                     </li>
-                    <li>
-                        <h3>V.S.G. International School</h3>
+                    <li id="list">
+                        V.S.G. International School
                         <ul>
-                            <li>Achieved <b>89.8%</b> - 12<sup>th</sup> STD</li>
-                            <li>Achieved <b>94%</b> - 10<sup>th</sup> STD</li>
+                            <li id="sublist">Achieved <b>89.8%</b> - 12<sup>th</sup> STD</li>
+                            <li id="sublist">Achieved <b>94%</b> - 10<sup>th</sup> STD</li>
                         </ul>
                     </li>
                 </ul>
             </p>
         </article>
 
-        <hr>
+        <!-- <hr> -->
 
         <article>
-            <h2>
+            <h2 id="righth2">
                 Work Experience
             </h2>
 
             <p>
                 <ul>
-                    <li>
-                        <h3>Intern at CODSOFT</h3>
+                    <li id="list">
+                        Intern at CODSOFT
                         <ul>
-                            <li>Python Programming</li>
+                            <li id="sublist">Python Programming</li>
                         </ul>
                     </li>
 
-                    <li>
-                        <h3>Data Science Intern at Prodigy InfoTech</h3>
+                    <li id="list">
+                        Data Science Intern at Prodigy InfoTech
                         <ul>
-                            <li>Microsoft Power BI</li>
-                        </ul>
+                            <li id="sublist">Microsoft Power BI</li>
+                       </ul>
                     </li>
 
-                    <li>
-                        <h3>Society of Mathematics - PDEU Student Chapter</h3>
+                    <li id="list">
+                        Society of Mathematics - PDEU Student Chapter
                         <ul>
-                            <li>Research Department</li>
+                            <li id="sublist">Research Department</li>
                         </ul>
                     </li>
                 </ul>
@@ -113,38 +142,8 @@
 
         </article>
     </section>
+   </div>
 
-    <hr>
 
-    <section>
-        <h2>
-            Skills
-        </h2>
-
-        <p>
-            <ul>
-                <li>Python Programming Language</li>
-                <li>C Programming Language</li>
-                <li>HTML5</li>
-                <li>Microsoft Power BI</li>
-                <li>Git/GitHub</li>
-            </ul>
-        </p>
-    </section>
-
-    <hr>
-
-    <section>
-        <h2>
-            For More Information
-        </h2>
-
-        <p>
-            <ul>
-                <li><h3>Linkedin Profile 🔗<a href="https://www.linkedin.com/in/anshmnsoni" target="_blank">link</a></h3></li>
-                <li><h3>GitHub Account 🔗<a href="https://github.com/AnshMNSoni" target="_blank">link</a></h3></li>
-            </ul>
-        </p>
-    </section>
 </body>
 </html>
