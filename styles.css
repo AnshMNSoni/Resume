@@ -1,0 +1,94 @@
+img {
+    border-radius: 45px;
+    border: 2px solid ;
+}
+
+#leftsection {
+    background-color: rgb(128, 0, 128);
+    padding-top: 10px;
+    margin: 0;
+    width: 200px;
+    height: 626px;
+    border: 2px solid black;
+}
+
+#rightsection {
+    background-color: rgb(253, 227, 253);
+    margin-left: 210px;
+    margin-top: -657px;
+    height: 640px;
+    width: 300px;
+}
+
+h1 {
+    font-family: "Fira Sans Condensed", sans-serif;
+    margin: 0px;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#lefth2 {
+    background-color: rgb(253, 227, 253);
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-style: normal;
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#righth2 {
+    background-color: purple;
+    color: whitesmoke;
+    padding-left: 20px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 0px;
+    font-size: 21px;
+}
+
+#leftpara {
+    color: whitesmoke;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#about {
+    padding-left: 20px;
+    background-color: purple;
+    color: whitesmoke;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 21px;
+}
+
+#aboutpara {
+    padding-left: 20px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+#list {
+    text-align: justify;
+    padding-right: 25px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: medium;
+    padding-top: 5px;
+}
+
+#sublist {
+    margin: 0px;
+    font-size: small;
+    font-weight: 400;
+    padding-top: 5px;
+}
