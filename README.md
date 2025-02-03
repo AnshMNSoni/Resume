@@ -1,6 +1,6 @@
 # Resume
 
-### Language: HTML + CSS 
+### 👉 Language: HTML + CSS 
 
 ---
 
@@ -8,15 +8,15 @@
 
 --- 
 
-### Overview:
+### 👉 Overview:
 
-👉 Resume using html and css. Basically, this project is make strong command on HTML and CSS.
+- Resume using html and css. Basically, this project is make strong command on HTML and CSS.
 
-👉 Simple yet attractive Project 😊 
+- Simple yet attractive Project 😊 
 
 ---
 
-### Visit:
+### 👉 Visit:
 
 `LinkedIn` - [Visit](https://linkedin.com/in/anshmnsoni)
 
